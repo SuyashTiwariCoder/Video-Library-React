@@ -1,0 +1,74 @@
+.navbar {
+
+    height: 7vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: #2e2a2a;
+    border-bottom: 2px solid black;
+
+}
+
+.btn__login {
+    width: 8rem;
+    background-color: #F3B2F1;
+    font-size: 1.5rem;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.btn__login:hover {
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.image__LandingPage {
+    height: 93vh;
+    object-fit: cover;
+    width: 100vw;
+    filter: blur(3px);
+    position: absolute;
+
+}
+
+.heading__landingPage {
+    position: relative;
+    color: white;
+    height: 93vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+    font-size: 6rem;
+
+}
+
+.heading__landingPage h2 {
+    font-weight: 300;
+}
+
+.btn__landingPage {
+    height: 8rem;
+    width: 55rem;
+    background-color: #ff006d;
+    font-size: 2rem;
+    border: none;
+    letter-spacing: 1rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.btn__landingPage:hover {
+    cursor: pointer;
+}

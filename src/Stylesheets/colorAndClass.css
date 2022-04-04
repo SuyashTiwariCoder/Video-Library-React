@@ -1,0 +1,16 @@
+.textAlign--Center {
+    text-align: center;
+}
+
+.grid--center {
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.p {
+    border: 2px solid red;
+}
