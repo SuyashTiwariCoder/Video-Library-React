@@ -1,38 +1,64 @@
 .navbar {
 
-    height: 7vh;
+    height: 10vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    background-color: #2e2a2a;
+    background-color: #202020;
     border-bottom: 2px solid black;
 
+
+}
+
+.nav--logo {
+    color: var(--main-color);
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 200;
 }
 
 .btn__login {
     width: 8rem;
-    background-color: #F3B2F1;
+    background-color: var(--main-color);
     font-size: 1.5rem;
     border: none;
     text-transform: capitalize;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: var(--white);
+    padding: 1rem;
 }
 
 .btn__login:hover {
     cursor: pointer;
 }
 
-.searchbar {
+.searchbar__input {
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    height: 4rem;
+    background: #181818;
+    border: none;
+    color: var(--white);
+    outline: none;
+    border-radius: 2px;
+    padding: 1rem;
+
+
+}
+
+.searchbar {
+    width: 100%;
+    position: relative;
+
 }
 
 .image__LandingPage {
-    height: 93vh;
+    height: 90vh;
     object-fit: cover;
     width: 100vw;
     filter: blur(3px);
@@ -43,7 +69,7 @@
 .heading__landingPage {
     position: relative;
     color: white;
-    height: 93vh;
+    height: 90vh;
     width: 100vw;
     display: grid;
     place-items: center;
@@ -71,4 +97,11 @@
 
 .btn__landingPage:hover {
     cursor: pointer;
+}
+
+.searchbar__icon {
+    position: absolute;
+    color: white;
+    top: 1rem;
+    right: 1rem;
 }

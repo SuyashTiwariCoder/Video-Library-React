@@ -5,7 +5,6 @@ import LandingPageBanner from "./../components/LandingPageBanner";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
       <LandingPageBanner />
     </>
   );

@@ -1,3 +1,11 @@
+:root {
+    --main-color: #ff006d;
+    --black: black;
+    --white: white;
+    --grey: #646464;
+    --light-dark: #181818;
+}
+
 .textAlign--Center {
     text-align: center;
 }

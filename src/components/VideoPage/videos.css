@@ -1,0 +1,120 @@
+.video__section {
+    color: white;
+    /* border: 2px solid red; */
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video__body {
+    /* border: 2px solid green; */
+    height: fit-content;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.video__thumbnailAndDurationContainer img {
+    height: 20rem;
+    width: 100%;
+    object-fit: scale-down;
+
+}
+
+.video__thumbnailAndDurationContainer {
+    position: relative;
+}
+
+.video__duration {
+    position: absolute;
+    right: 2rem;
+    bottom: 3rem;
+    background-color: #574d4d;
+    width: 3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.video__details {
+    /* border: 2px solid yellow; */
+    height: 13rem;
+    width: 100%;
+    display: flex;
+}
+
+.video__avatar {
+    display: inline;
+    padding: 1rem;
+    flex: .2;
+}
+
+.video__avatar img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.video__detailTab {
+    flex: .7;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.video__more {
+    flex: .1;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.video__heading {
+    flex: .7;
+    font-size: 15px;
+
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.video__creatorName {
+    flex: .2;
+}
+
+.video__DateAndViews {
+    flex: .1;
+}
+
+.video__dropdown {
+    position: absolute;
+    border: 2px solid red;
+    height: 20rem;
+    width: 18rem;
+    right: 1rem;
+    top: 3rem;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.video__dropdownElement {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.video__dropdown--active {
+    display: flex;
+}
+
+.video__dropdown--NotActive {
+    display: none;
+}
